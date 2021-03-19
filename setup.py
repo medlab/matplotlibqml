@@ -10,7 +10,7 @@ depend_packages=[
 
 setup(
     name='matplotlibqml',
-    version='0.90',
+    version='0.91',
     description='Matplotlib Mini QML Backend',
     long_description=open('readme.md').read(),
     long_description_content_type='text/markdown',
@@ -22,7 +22,7 @@ setup(
     url='https://github.com/medlab/matplotlibqml',
     packages=['matplotlibqml'],
     package_dir={'':'src'},
-    package_data={'':['**/*.qml']},
+    package_data={'':['*.qml']},
     #data_files=['gadm/test_datas/testdata.h5'],
     classifiers=[
         'License :: OSI Approved :: MIT License',
