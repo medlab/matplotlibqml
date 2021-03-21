@@ -10,7 +10,7 @@ depend_packages=[
 
 setup(
     name='matplotlibqml',
-    version='0.92',
+    version='0.92.001',
     description='Matplotlib Mini QML Backend',
     long_description=open('readme.md').read(),
     long_description_content_type='text/markdown',
